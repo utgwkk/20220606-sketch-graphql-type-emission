@@ -10,5 +10,10 @@
   "devDependencies": {
     "@types/react-relay": "^13.0.2",
     "relay-compiler": "^13.2.0"
+  },
+  "relay": {
+    "schema": "./schema.graphql",
+    "src": "./relay-compiler",
+    "language": "typescript"
   }
 }
