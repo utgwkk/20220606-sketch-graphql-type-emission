@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "utgwkk <utagawakiki@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react-relay": "^13.2.0"
+  },
+  "devDependencies": {
+    "@types/react-relay": "^13.0.2",
+    "relay-compiler": "^13.2.0"
+  }
 }
