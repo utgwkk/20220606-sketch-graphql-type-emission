@@ -33,6 +33,19 @@ const barOkFragment = graphql`
   }
 `;
 
+const barNgFragment = graphql`
+  fragment Foo_bar_ng on Bar {
+    barField
+    ... on Bar1 {
+      __typename
+      bar1Field
+    }
+    ... on Bar2 {
+      __typename
+      bar2Field
+    }
+  }
+`;
 const fooNgFragment1 = graphql`
   fragment Foo_foo_ng1 on Foo {
     id
