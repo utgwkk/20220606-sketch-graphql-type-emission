@@ -1,0 +1,26 @@
+type Query {
+  node(id: ID!): Node
+}
+
+interface Node {
+  id: ID!
+}
+
+type Foo implements Node {
+  id: ID!
+  bar: Bar!
+}
+
+interface Bar {
+  barField: String!
+}
+
+type Bar1 implements Bar {
+  barField: String!
+  bar1Field: String!
+}
+
+type Bar2 implements Bar {
+  barField: String!
+  bar2Field: String!
+}
