@@ -10,11 +10,11 @@
     "react-relay": "^13.2.0"
   },
   "devDependencies": {
-    "@types/react-relay": "^13.0.2",
-    "relay-compiler": "^13.2.0",
-    "@graphql-codegen/typescript": "2.4.11",
+    "@graphql-codegen/cli": "2.6.2",
+    "@graphql-codegen/typescript": "^2.4.11",
     "@graphql-codegen/typescript-operations": "2.4.0",
-    "@graphql-codegen/cli": "2.6.2"
+    "@types/react-relay": "^13.0.2",
+    "relay-compiler": "^13.2.0"
   },
   "relay": {
     "schema": "./schema.graphql",
